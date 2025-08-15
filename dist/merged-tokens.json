@@ -538,7 +538,7 @@
         "$value": "{dimension.xl}"
       }
     },
-      "sizing": {
+    "sizing": {
       "md": {
         "$type": "number",
         "$value": "{scale.600}"
@@ -615,7 +615,7 @@
       }
     }
   },
-  "themes/Light": {
+  "themes/light": {
     "primary": {
       "background": {
         "$value": "{primary.blue.300}",
@@ -697,7 +697,7 @@
       }
     }
   },
-  "themes/Dark": {
+  "themes/dark": {
     "primary": {
       "background": {
         "$value": "{primary.blue.800}",
@@ -779,7 +779,7 @@
       }
     }
   },
-  "styles": {    
+  "styles": {
     "elevation": {
       "$type": "boxShadow",
       "$value": [
@@ -811,17 +811,5 @@
         "letterSpacing": "{letterSpacing.default}"
       }
     }
-  },
-  "$themes": [],
-  "$metadata": {
-    "tokenSetOrder": [
-      "global",
-      "color",
-      "typography",
-      "geometry",
-      "themes/Light",
-      "themes/Dark",
-      "styles"
-    ]
   }
 }
