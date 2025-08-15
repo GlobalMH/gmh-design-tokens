@@ -819,8 +819,8 @@
       "color",
       "typography",
       "geometry",
-      "themes/Light",
-      "themes/Dark",
+      "themes/light",
+      "themes/dark",
       "styles"
     ]
   }
