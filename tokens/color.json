@@ -1,20 +1,150 @@
-{ 
-  "fg": {
-    "default": { "$type": "color", "$value": "{colors.black.100%}" },
-    "muted": {  "$type": "color", "$value": "{colors.gray.700}" },
-    "subtle": { "$type": "color", "$value": "{colors.gray.500}" }
+{
+  "base": {
+    "gray": {
+      "100": {
+        "$type": "color",
+        "$value": "#f7fafc"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#edf2f7"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#e2e8f0"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#cbd5e0"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#a0aec0"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#718096"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#4a5568"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#2d3748"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#1a202c"
+      }
+    },
+    "black": {
+      "$type": "color",
+      "$value": "#000000"
+    },
+    "white": {
+      "$type": "color",
+      "$value": "#ffffff"
+    }
   },
-  "bg": {
-    "default": { "$type": "color", "$value": "{colors.white.100%}" },
-    "muted": { "$type": "color", "$value": "{colors.gray.100}" },
-    "subtle": { "$type": "color", "$value": "{colors.gray.200}" }
+  "key": {
+    "primary-blue": {
+      "$type": "color",
+      "$value": "#033c5a"
+    },
+    "primary-gold": {
+      "$type": "color",
+      "$value": "#aa9868"
+    },
+    "secondary-blue": {
+      "$type": "color",
+      "$value": "#0190db"
+    },
+    "secondary-yellow": {
+      "$type": "color",
+      "$value": "#f8e08e"
+    },
+    "accent-yellow": {
+      "$type": "color",
+      "$value": "#ffc72c"
+    },
+    "accent-brown": {
+      "$type": "color",
+      "$value": "#a65523"
+    },
+    "accent-green": {
+      "$type": "color",
+      "$value": "#008264"
+    },
+    "success-green": {
+      "$type": "color",
+      "$value": "#78be20"
+    },
+    "error-red": {
+      "$type": "color",
+      "$value": "#c8102e"
+    }
   },
-  "accent": {
-    "default": { "$type": "color", "$value": "{colors.blue.400}" },
-    "onAccent": { "$type": "color", "$value": "{colors.white.100%}" },
-    "bg": { "$type": "color", "$value": "{colors.blue.200}" }
-  },
-  "shadow": {
-    "default": { "$type": "color", "$value": "{colors.black.100%}" }
+  "primary": {
+    "blue": {
+      "100": {
+        "$type": "color",
+        "$value": "#e2edfe"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#c9ddf8"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#abceed"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#92bedd"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#5d95c0"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#396e93"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#033c5a"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#002940"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#001a29"
+      }
+    },
+    "gold": {
+      "300": {
+        "$type": "color",
+        "$value": "#fdf0c4"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#f8e08e"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#aa9868"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#726331"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#4b401b"
+      }
+    }
   }
 }

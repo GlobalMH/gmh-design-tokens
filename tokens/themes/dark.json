@@ -1,0 +1,82 @@
+{
+  "primary": {
+    "background": {
+      "$value": "{primary.blue.800}",
+      "$type": "color"
+    },
+    "default": {
+      "$value": "{primary.blue.500}",
+      "$type": "color"
+    },
+    "on": {
+      "$value": "{base.white}",
+      "$type": "color"
+    }
+  },
+  "fg": {
+    "secondary": {
+      "$value": "{base.gray.300}",
+      "$type": "color"
+    },
+    "tertiary": {
+      "$value": "{base.gray.500}",
+      "$type": "color"
+    },
+    "default": {
+      "$value": "{base.white}",
+      "$type": "color"
+    }
+  },
+  "bg": {
+    "tertiary": {
+      "$value": "{base.gray.600}",
+      "$type": "color"
+    },
+    "secondary": {
+      "$value": "{base.gray.700}",
+      "$type": "color"
+    },
+    "default": {
+      "$value": "{base.gray.900}",
+      "$type": "color"
+    }
+  },
+  "secondary": {
+    "default": {
+      "$value": "{primary.gold.500}",
+      "$type": "color"
+    },
+    "on": {
+      "$value": "{base.white}",
+      "$type": "color"
+    },
+    "background": {
+      "$value": "{primary.gold.700}",
+      "$type": "color"
+    }
+  },
+  "surface": {
+    "dim": {
+      "$value": "{base.gray.900}",
+      "$type": "color"
+    },
+    "default": {
+      "$value": "{base.gray.800}",
+      "$type": "color"
+    },
+    "bright": {
+      "$value": "{base.gray.700}",
+      "$type": "color"
+    }
+  },
+  "outline": {
+    "default": {
+      "$value": "{base.gray.600}",
+      "$type": "color"
+    },
+    "variant": {
+      "$value": "{base.gray.500}",
+      "$type": "color"
+    }
+  }
+}

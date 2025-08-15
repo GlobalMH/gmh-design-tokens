@@ -1,0 +1,196 @@
+{
+  "text-token": {
+    "lorem": {
+      "$type": "text",
+      "$value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    "example": {
+      "$type": "text",
+      "$value": "The quick brown fox jumps over the lazy dog."
+    },
+    "alphabet": {
+      "$type": "text",
+      "$value": "Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz"
+    },
+    "number": {
+      "$type": "text",
+      "$value": "0 1 2 3 4 5 6 7 8 9 ! @ £ $ % ^ & * ( ) _ +"
+    },
+    "quote": {
+      "$type": "text",
+      "$value": "\"The only limit to our realization of tomorrow is our doubts of today.\" - Franklin D. Roosevelt"
+    }
+  },
+  "device": {
+    "width": {
+      "xl": {
+        "$type": "number",
+        "$value": 1200
+      },
+      "md": {
+        "$type": "number",
+        "$value": 768
+      },
+      "sm": {
+        "$type": "number",
+        "$value": 576
+      },
+      "lg": {
+        "$type": "number",
+        "$value": 992
+      },
+      "xxl": {
+        "$type": "number",
+        "$value": 1400
+      }
+    },
+    "container": {
+      "md": {
+        "$type": "number",
+        "$value": 720
+      },
+      "sm": {
+        "$type": "number",
+        "$value": 540
+      },
+      "lg": {
+        "$type": "number",
+        "$value": 960
+      },
+      "xl": {
+        "$type": "number",
+        "$value": 1140
+      },
+      "xxl": {
+        "$type": "number",
+        "$value": 1320
+      }
+    },
+    "gutter": {
+      "xl": {
+        "$type": "number",
+        "$value": 40
+      },
+      "lg": {
+        "$type": "number",
+        "$value": 32
+      },
+      "md": {
+        "$type": "number",
+        "$value": 24
+      },
+      "sm": {
+        "$type": "number",
+        "$value": 16
+      },
+      "xs": {
+        "$type": "number",
+        "$value": 8
+      }
+    }
+  },
+  "scale": {
+    "0": {
+      "$type": "number",
+      "$value": 0
+    },
+    "50": {
+      "$type": "number",
+      "$value": 2
+    },
+    "100": {
+      "$type": "number",
+      "$value": 4
+    },
+    "150": {
+      "$type": "number",
+      "$value": 6
+    },
+    "200": {
+      "$type": "number",
+      "$value": 8
+    },
+    "300": {
+      "$type": "number",
+      "$value": 12
+    },
+    "400": {
+      "$type": "number",
+      "$value": 16
+    },
+    "600": {
+      "$type": "number",
+      "$value": 24
+    },
+    "800": {
+      "$type": "number",
+      "$value": 32
+    },
+    "1200": {
+      "$type": "number",
+      "$value": 48
+    },
+    "1600": {
+      "$type": "number",
+      "$value": 64
+    },
+    "2000": {
+      "$type": "number",
+      "$value": 92
+    },
+    "2400": {
+      "$type": "number",
+      "$value": 96
+    },
+    "4000": {
+      "$type": "number",
+      "$value": 160
+    },
+    "Negative 300": {
+      "$type": "number",
+      "$value": -12
+    },
+    "Negative 100": {
+      "$type": "number",
+      "$value": -4
+    },
+    "Negative 400": {
+      "$type": "number",
+      "$value": -16
+    },
+    "Negative 200": {
+      "$type": "number",
+      "$value": -8
+    },
+    "Negative 600": {
+      "$type": "number",
+      "$value": -24
+    }
+  },
+  "dimension": {
+    "xs": {
+      "$type": "number",
+      "$value": "{scale.100}"
+    },
+    "xxl": {
+      "$type": "number",
+      "$value": "{scale.1600}"
+    },
+    "lg": {
+      "$type": "number",
+      "$value": "{scale.800}"
+    },
+    "md": {
+      "$type": "number",
+      "$value": "{scale.400}"
+    },
+    "xl": {
+      "$type": "number",
+      "$value": "{scale.1200}"
+    },
+    "sm": {
+      "$type": "number",
+      "$value": "{scale.200}"
+    }
+  }
+}

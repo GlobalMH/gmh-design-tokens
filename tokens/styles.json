@@ -1,0 +1,33 @@
+{
+  "elevation": {
+    "$type": "boxShadow",
+    "$value": [
+      {
+        "color": "#00000040",
+        "type": "dropShadow",
+        "x": "{scale.0}",
+        "y": "{scale.0}",
+        "blur": "{scale.0}",
+        "spread": "{scale.0}"
+      },
+      {
+        "color": "#00000040",
+        "type": "dropShadow",
+        "x": "{scale.0}",
+        "y": "{scale.100}",
+        "blur": "{scale.100}",
+        "spread": "{scale.0}"
+      }
+    ]
+  },
+  "body": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{fontFamilies.sans}",
+      "fontWeight": "{fontWeights.sans-regular}",
+      "lineHeight": "{lineHeights.base}",
+      "fontSize": "{fontSizes.base}",
+      "letterSpacing": "{letterSpacing.default}"
+    }
+  }
+}
