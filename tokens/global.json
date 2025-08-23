@@ -1,12 +1,12 @@
 {
-  "text-token": {
+  "copy": {
     "lorem": {
       "$type": "text",
       "$value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     "example": {
       "$type": "text",
-      "$value": "The quick brown fox jumps over the lazy dog."
+      "$value": "The only good american is a living or dead one"
     },
     "alphabet": {
       "$type": "text",
@@ -23,9 +23,17 @@
   },
   "device": {
     "width": {
+      "xxl": {
+        "$type": "number",
+        "$value": 1400
+      },
       "xl": {
         "$type": "number",
         "$value": 1200
+      },
+      "lg": {
+        "$type": "number",
+        "$value": 992
       },
       "md": {
         "$type": "number",
@@ -34,17 +42,21 @@
       "sm": {
         "$type": "number",
         "$value": 576
-      },
-      "lg": {
-        "$type": "number",
-        "$value": 992
-      },
-      "xxl": {
-        "$type": "number",
-        "$value": 1400
       }
     },
     "container": {
+      "xxl": {
+        "$type": "number",
+        "$value": 1320
+      },
+      "xl": {
+        "$type": "number",
+        "$value": 1140
+      },
+      "lg": {
+        "$type": "number",
+        "$value": 960
+      },
       "md": {
         "$type": "number",
         "$value": 720
@@ -52,44 +64,20 @@
       "sm": {
         "$type": "number",
         "$value": 540
-      },
-      "lg": {
-        "$type": "number",
-        "$value": 960
-      },
-      "xl": {
-        "$type": "number",
-        "$value": 1140
-      },
-      "xxl": {
-        "$type": "number",
-        "$value": 1320
       }
     },
     "gutter": {
-      "xl": {
-        "$type": "number",
-        "$value": 40
-      },
       "lg": {
         "$type": "number",
         "$value": 32
       },
-      "md": {
-        "$type": "number",
-        "$value": 24
-      },
       "sm": {
         "$type": "number",
         "$value": 16
-      },
-      "xs": {
-        "$type": "number",
-        "$value": 8
       }
     }
   },
-  "scale": {
+  "grid": {
     "0": {
       "$type": "number",
       "$value": 0
@@ -146,21 +134,25 @@
       "$type": "number",
       "$value": 160
     },
-    "Negative 300": {
+    "Negative 050": {
       "$type": "number",
-      "$value": -12
+      "$value": -2
     },
     "Negative 100": {
       "$type": "number",
       "$value": -4
     },
-    "Negative 400": {
-      "$type": "number",
-      "$value": -16
-    },
     "Negative 200": {
       "$type": "number",
       "$value": -8
+    },
+    "Negative 300": {
+      "$type": "number",
+      "$value": -12
+    },
+    "Negative 400": {
+      "$type": "number",
+      "$value": -16
     },
     "Negative 600": {
       "$type": "number",
@@ -168,29 +160,29 @@
     }
   },
   "dimension": {
-    "xs": {
-      "$type": "number",
-      "$value": "{scale.100}"
-    },
     "xxl": {
       "$type": "number",
-      "$value": "{scale.1600}"
-    },
-    "lg": {
-      "$type": "number",
-      "$value": "{scale.800}"
-    },
-    "md": {
-      "$type": "number",
-      "$value": "{scale.400}"
+      "$value": "{grid.1600}"
     },
     "xl": {
       "$type": "number",
-      "$value": "{scale.1200}"
+      "$value": "{grid.1200}"
+    },
+    "lg": {
+      "$type": "number",
+      "$value": "{grid.800}"
+    },
+    "md": {
+      "$type": "number",
+      "$value": "{grid.400}"
     },
     "sm": {
       "$type": "number",
-      "$value": "{scale.200}"
+      "$value": "{grid.200}"
+    },
+    "xs": {
+      "$type": "number",
+      "$value": "{grid.100}"
     }
   }
 }

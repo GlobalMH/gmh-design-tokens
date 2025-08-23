@@ -4,13 +4,17 @@
       "$type": "number",
       "$value": "{dimension.xxl}"
     },
-    "md": {
+    "xl": {
       "$type": "number",
-      "$value": "{dimension.md}"
+      "$value": "{dimension.xl}"
     },
     "lg": {
       "$type": "number",
       "$value": "{dimension.lg}"
+    },
+    "md": {
+      "$type": "number",
+      "$value": "{dimension.md}"
     },
     "sm": {
       "$type": "number",
@@ -19,35 +23,35 @@
     "xs": {
       "$type": "number",
       "$value": "{dimension.xs}"
+    }
+  },
+  "sizing": {
+    "xxl": {
+      "$type": "number",
+      "$value": "{grid.1600}"
     },
     "xl": {
       "$type": "number",
-      "$value": "{dimension.xl}"
-    }
-  },
-    "sizing": {
-    "md": {
-      "$type": "number",
-      "$value": "{scale.600}"
-    },
-    "sm": {
-      "$type": "number",
-      "$value": "{scale.400}"
+      "$value": "{grid.1200}"
     },
     "lg": {
       "$type": "number",
-      "$value": "{scale.800}"
+      "$value": "{grid.800}"
     },
-    "xl": {
+    "md": {
       "$type": "number",
-      "$value": "{scale.1200}"
+      "$value": "{grid.600}"
     },
-    "xxl": {
+    "sm": {
       "$type": "number",
-      "$value": "{scale.1600}"
+      "$value": "{grid.400}"
     }
   },
   "borderRadius": {
+    "full": {
+      "$type": "number",
+      "$value": 9999
+    },
     "xl": {
       "$type": "number",
       "$value": "{dimension.md}"
@@ -56,49 +60,61 @@
       "$type": "number",
       "$value": "{dimension.sm}"
     },
+    "md": {
+      "$type": "number",
+      "$value": "{scale.400}"
+    },
     "sm": {
       "$type": "number",
       "$value": "{dimension.xs}"
     },
-    "full": {
+    "none": {
       "$type": "number",
-      "$value": 9999
+      "$value": 0
     }
   },
   "borderWidth": {
-    "regular": {
-      "$type": "number",
-      "$value": 1
-    },
-    "focus": {
-      "$type": "number",
-      "$value": 2
-    },
     "device": {
       "$type": "number",
       "$value": 8
+    },
+    "focus ring": {
+      "$type": "number",
+      "$value": 2
+    },
+    "outline": {
+      "$type": "number",
+      "$value": 1
     }
   },
   "opacity": {
+    "full": {
+      "$type": "number",
+      "$value": 100
+    },
     "high": {
       "$type": "number",
       "$value": 90
+    },
+    "md-high": {
+      "$type": "number",
+      "$value": 75
     },
     "md": {
       "$type": "number",
       "$value": 50
     },
-    "low": {
-      "$type": "number",
-      "$value": 10
-    },
     "md-low": {
       "$type": "number",
       "$value": 25
     },
-    "md-high": {
+    "low": {
       "$type": "number",
-      "$value": 75
+      "$value": 10
+    },
+    "none": {
+      "$type": "number",
+      "$value": 0
     }
   }
 }
